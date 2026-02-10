@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<title>Para ti ❤️</title>
+<style>
+body{
+margin:0;
+height:100vh;
+background:#8b0000;
+display:flex;
+justify-content:center;
+align-items:center;
+font-family:Arial, sans-serif;
+color:white;
+text-align:center;
+}
+.box{
+background:rgba(0,0,0,.4);
+padding:30px;
+border-radius:20px;
+}
+button{
+margin-top:20px;
+padding:12px 30px;
+font-size:18px;
+border:none;
+border-radius:30px;
+cursor:pointer;
+background:white;
+color:#8b0000;
+}
+</style>
+</head>
+<body>
+
+<div class="box">
+<h1>❤️ Feliz San Valentín ❤️</h1>
+<p>Esto lo hice solo para ti</p>
+<h2>¿Quieres ser mi 14 de febrero?</h2>
+<button onclick="alert('💘 Sabía que dirías que sí 💘')">
+Sí 💕
+</button>
+</div>
+
+</body>
+</html>
